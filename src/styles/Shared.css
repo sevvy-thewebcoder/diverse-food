@@ -1,0 +1,39 @@
+@import url('./Variables.css');
+
+.bestseller__items,
+.menu__items {
+    display: grid;
+    grid-template-columns: var(--gridTemplate-Cols);
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.bestseller__items > .bestseller__card,
+.menu__items > .card__alt {
+    padding-block: var(--bestseller-card-padding-block);
+    box-shadow: var(--box-shadow-dark);
+    border-radius: var(--border-radius);
+    align-items: center;
+}
+
+.bestseller__items .image__wrapper_alt,
+.menu__items .image__wrapper_alt,
+.blog__posts .image__wrapper_alt {
+    width: 100%;
+    max-height: 320px;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--border-radius-image-special);
+}
+
+.bestseller__items .image__wrapper_alt .image,
+.menu__items .image__wrapper_alt .image,
+.blog__posts .image__wrapper_alt .image {
+    width: 100%;
+    border-radius: var(--border-radius-image-special);
+    object-fit: cover;
+}
+
+.blog__posts > .post:first-child,
+.blog__posts > .post:last-child {
+    align-self: var(--card-align-special);
+}

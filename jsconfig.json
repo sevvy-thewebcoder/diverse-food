@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@assets/*":["assets/*"],
+            "@styles/*":["styles/*"],
+            "@layouts/*":["layouts/*"],
+            "@containers/*":["containers/*"],
+            "@components/*":["components/*"],
+            "@header/*":["components/header/*"],
+        },
+        "target": "ES6",
+        "module": "CommonJS",
+        "sourceMap": false,
+        "outDir": "./build",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+    }
+}
