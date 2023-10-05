@@ -53,7 +53,7 @@
     color: var(--textColor-special);
 }
 
-.nav__link.nav__link_active {
+.nav__link.active {
     color: var(--textColor-special);
 }
 

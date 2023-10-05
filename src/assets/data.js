@@ -11,7 +11,7 @@ const headerSection = [
     {
         id: 1,
         title: "Home",
-        url: "/"
+        url: "#home"
     },
     {
         id: 2,
